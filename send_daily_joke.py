@@ -1,5 +1,5 @@
 import os
-from onesignal import OneSignal, SegmentNotification, Notification
+from onesignal import OneSignal, SegmentNotification
 
 with open('joke.txt', 'r') as f:
   joke = f.readline()
