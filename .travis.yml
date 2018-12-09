@@ -1,0 +1,2 @@
+script:
+- bash travis_cron.sh
