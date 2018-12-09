@@ -14,8 +14,8 @@ notification_to_all_users = SegmentNotification(
   },
   included_segments=SegmentNotification.ALL,
   url="https://vk.com/radiomipt/",
-  delayed_option=Notification.DELAYED_OPTION_TIMEZONE,
-  send_after="18:00:00",
+  delayed_option="timezone",
+  send_after="18:06:00",
 )
 
 client.send(notification_to_all_users)
