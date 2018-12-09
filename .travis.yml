@@ -1,2 +1,14 @@
+language: python
+python:
+  - "3.7"
+
+install:
+  - pip install -r requirements.txt
+  
 script:
+# Update daily joke
 - bash travis_cron.sh
+
+deploy:
+# send push notifications
+- python send_daily_joke.py
