@@ -8,7 +8,5 @@ install:
 script:
 # Update daily joke
 - bash travis_cron.sh
-
-deploy:
 # send push notifications
 - python send_daily_joke.py
