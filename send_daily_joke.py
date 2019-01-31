@@ -13,7 +13,7 @@ notification_to_all_users = SegmentNotification(
     "en": joke
   },
   included_segments=SegmentNotification.ALL,
-  url="https://vk.com/radiomipt/",
+  url="https://vk.com/radiomipt",
   delayed_option="timezone",
   delivery_time_of_day="6:10PM"
 )
